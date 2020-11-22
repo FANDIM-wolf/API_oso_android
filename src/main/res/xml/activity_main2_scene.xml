@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="76dp"
+            android:layout_width="285dp"
+            android:id="@+id/Result"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="361dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="294dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="89dp"
+            android:layout_marginLeft="89dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_editor_absoluteY="278dp" />
+        <Constraint
+            android:id="@+id/editTextNumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="65dp"
+            motion:layout_editor_absoluteX="58dp" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="162dp"
+            motion:layout_editor_absoluteX="57dp"
+            android:id="@+id/Num2"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="162dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="524dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="57dp"
+            android:layout_marginLeft="57dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="65dp"
+            motion:layout_editor_absoluteX="58dp"
+            android:id="@+id/Num1"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="65dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="621dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp" />
+        <Constraint
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="432dp"
+            motion:layout_editor_absoluteX="206dp" />
+        <Constraint
+            motion:layout_editor_absoluteY="428dp"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="181dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/button2"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="428dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="255dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="181dp"
+            android:layout_marginLeft="181dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="142dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>
